@@ -22,7 +22,7 @@ function startBot() {
     console.log('Sunucuya girildi.')
     await sleep(3000)
 
-    bot.chat('/register benbitben kayserilimafia@gmail.com')
+    bot.chat('/login benbitben')
     console.log('Login atıldı')
     await sleep(3000)
 
@@ -84,4 +84,5 @@ function startBot() {
 }
 
 startBot()
+
 
